@@ -20,9 +20,9 @@
     <description>sfg-pet-clinic</description>
 
     <properties>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.report.outputEncoding>UTF-8</project.report.outputEncoding>
-        <java.version>17</java.version>
     </properties>
 
     <build>
@@ -44,7 +44,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goal>install</goal>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -52,7 +51,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/KonradRudnicki/sfg-pet-clinic.git</developerConnection>
-
-    <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
 </project>
