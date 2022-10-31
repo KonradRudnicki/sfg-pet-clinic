@@ -49,7 +49,7 @@
     </build>
 
 
-  <scm>
-    <tag>0.0.1</tag>
-  </scm>
+    <scm>
+        <developerConnection>scm:git:git@github.com:fjimenez-kmc/sfg-pet-clinic.git</developerConnection>
+    </scm>
 </project>
