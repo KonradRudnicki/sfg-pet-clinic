@@ -1,6 +1,5 @@
 package konradrudnicki.springframework.sfgpetclinic.services.map;
 
-import konradrudnicki.springframework.sfgpetclinic.model.Owner;
 import konradrudnicki.springframework.sfgpetclinic.model.Pet;
 import konradrudnicki.springframework.sfgpetclinic.services.CrudService;
 
