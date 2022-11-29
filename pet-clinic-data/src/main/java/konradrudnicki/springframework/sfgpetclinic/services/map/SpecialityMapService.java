@@ -1,11 +1,13 @@
 package konradrudnicki.springframework.sfgpetclinic.services.map;
 
 import konradrudnicki.springframework.sfgpetclinic.model.Speciality;
-import konradrudnicki.springframework.sfgpetclinic.services.SpecialitiesService;
+import konradrudnicki.springframework.sfgpetclinic.services.SpecialityService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+@Service
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
 
     @Override
     public Set<Speciality> findAll() {
